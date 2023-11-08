@@ -1,0 +1,71 @@
+/* giveComments.html */
+.box {
+    margin-left: 30px;
+}
+
+.title {
+    margin-bottom: 80px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.productName, .productComment {
+    display: block;
+    margin-top: 5px;
+}
+
+.label {
+    margin-bottom: 30px;
+}
+
+.attn {
+    display: none;
+    font-size: 30px;
+    color: red;
+}
+
+.attn-active {
+    display: block;
+}
+
+/* seeComments.html */
+.productBox {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.comments {
+    display: none;
+}
+
+.comment-text {
+    width: 20%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* .li {
+    display: flex;
+    align-items: center;
+} */
+
+.active {
+    display: block;
+}
+
+.remove-comment {
+    margin-left: 20px;
+    display: inline;
+}
+
+.remove {
+    display: none;
+}
+
+.product-title {
+    width: 300px;
+}
